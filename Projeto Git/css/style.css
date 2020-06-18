@@ -1,0 +1,81 @@
+html {
+    font-size: 1rem;
+  }
+
+  h3 {
+      text-align: center;
+      font-family: 'dokchampa',sans-serif;
+      color: #7E83E6;
+  }
+
+  a{
+      margin-left: 200px;
+  }
+  
+  .fonte-titulo {
+    font-family: 'dokchampa',sans-serif;
+  }
+  
+  .imagem-carrossel {
+    object-fit:cover; object-position: 0 80%;
+    height: 400px;
+  }
+  
+  .card-imagem {
+    width: 18rem;
+    object-fit:cover;
+    object-position: 0 60%;
+  }
+  
+  .card-imagem-top {
+    height:200px;
+    object-fit:cover;
+    object-position: 0 60%;
+  }
+  
+  .thumb-redondo {
+    border-radius:50%; 
+    width:250px; 
+    height:250px; 
+    object-fit:cover; 
+    object-position: 0 60%; 
+  }
+  
+  .icones {
+    font-size: 2rem;
+  }
+  
+  .texto-cor-especial {
+    color: #7E83E6;
+  }
+  
+  .borda-cor-especial {
+    border-color: #7E83E6;
+  }
+  
+  .btn-cor-especial {
+    background-color: #7E83E6;
+    color: white;
+  }
+  
+  #cor-titulo {
+    color: #7E83E6;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
